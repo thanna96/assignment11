@@ -99,8 +99,8 @@ jobs:
         with:
           push: true
           tags: |
-            thanna96/assignment10:latest
-            thanna96/assignment10:${{ github.sha }}
+            thanna96/assignment11:latest
+            thanna96/assignment11:${{ github.sha }}
           platforms: linux/amd64,linux/arm64
-          cache-from: type=registry,ref=thanna96/assignment10:cache
+          cache-from: type=registry,ref=thanna96/assignment11:cache
           cache-to: type=inline,mode=max
